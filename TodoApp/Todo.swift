@@ -18,6 +18,7 @@ final class Todo {
     
     var isDone: Bool
     var priority: Int
+    var tags: [Tag]?
     
     @Attribute(.externalStorage)
     var image: Data?

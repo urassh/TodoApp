@@ -13,6 +13,7 @@
 		10F1A4242B3C5D5200B326A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F1A4232B3C5D5200B326A5 /* Assets.xcassets */; };
 		10F1A4272B3C5D5200B326A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F1A4262B3C5D5200B326A5 /* Preview Assets.xcassets */; };
 		10F1A42E2B3C613200B326A5 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1A42D2B3C613200B326A5 /* Tag.swift */; };
+		10F1A4302B3C62C100B326A5 /* RGBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1A42F2B3C62C100B326A5 /* RGBColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		10F1A4232B3C5D5200B326A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10F1A4262B3C5D5200B326A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		10F1A42D2B3C613200B326A5 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		10F1A42F2B3C62C100B326A5 /* RGBColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				10F1A41F2B3C5D5100B326A5 /* ContentView.swift */,
 				10F1A4212B3C5D5100B326A5 /* Todo.swift */,
 				10F1A42D2B3C613200B326A5 /* Tag.swift */,
+				10F1A42F2B3C62C100B326A5 /* RGBColor.swift */,
 				10F1A4232B3C5D5200B326A5 /* Assets.xcassets */,
 				10F1A4252B3C5D5200B326A5 /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 				10F1A42E2B3C613200B326A5 /* Tag.swift in Sources */,
 				10F1A4202B3C5D5100B326A5 /* ContentView.swift in Sources */,
 				10F1A4222B3C5D5100B326A5 /* Todo.swift in Sources */,
+				10F1A4302B3C62C100B326A5 /* RGBColor.swift in Sources */,
 				10F1A41E2B3C5D5100B326A5 /* TodoAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

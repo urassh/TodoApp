@@ -6,7 +6,14 @@
 //
 
 import Foundation
+import SwiftData
 
-class Tag {
+@Model
+final class Tag {
     var name: String
+    var todo: [Todo]?
+    
+    init(name: String) {
+        self.name = name
+    }
 }
