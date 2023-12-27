@@ -12,8 +12,10 @@ import SwiftData
 final class Tag {
     var name: String
     var todo: [Todo]?
+    var color: RGBColor
     
-    init(name: String) {
-        self.name = name
+    init(name: String, color: RGBColor) {
+        self.name  = name
+        self.color = color
     }
 }

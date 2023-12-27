@@ -59,9 +59,7 @@
 			children = (
 				10F1A41D2B3C5D5100B326A5 /* TodoAppApp.swift */,
 				10F1A41F2B3C5D5100B326A5 /* ContentView.swift */,
-				10F1A4212B3C5D5100B326A5 /* Todo.swift */,
-				10F1A42D2B3C613200B326A5 /* Tag.swift */,
-				10F1A42F2B3C62C100B326A5 /* RGBColor.swift */,
+				10F1A4312B3C658000B326A5 /* DataModel */,
 				10F1A4232B3C5D5200B326A5 /* Assets.xcassets */,
 				10F1A4252B3C5D5200B326A5 /* Preview Content */,
 			);
@@ -74,6 +72,16 @@
 				10F1A4262B3C5D5200B326A5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		10F1A4312B3C658000B326A5 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				10F1A4212B3C5D5100B326A5 /* Todo.swift */,
+				10F1A42D2B3C613200B326A5 /* Tag.swift */,
+				10F1A42F2B3C62C100B326A5 /* RGBColor.swift */,
+			);
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
